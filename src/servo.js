@@ -1,3 +1,5 @@
+const Gpio = require('pigpio').Gpio;
+
 function angle_to_dt(angle) {
     return (500 + 2000 * angle / 180).toFixed(0);
 }
